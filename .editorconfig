@@ -25,10 +25,10 @@ trim_trailing_whitespace = false
 generated_code = true
 ij_formatter_enabled = false
 
-[*.{csproj,html,props,resx,shproj,targets,xml}]
+[*.{csproj,html,props,resx,shproj,targets,xaml,xml}]
 ij_xml_space_inside_empty_tag = true
 
-[*.xaml]
+[*.{html,xaml,xml}]
 resharper_space_before_self_closing = true
 
 [*.{cs,vb}]
