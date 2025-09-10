@@ -12,6 +12,8 @@ trim_trailing_whitespace = true
 indent_size = 2
 
 [*.{csproj.DotSettings,sln,sln.DotSettings}]
+generated_code = true
+ij_formatter_enabled = false
 indent_style = tab
 
 [Directory.Packages.props]
@@ -20,10 +22,6 @@ insert_final_newline = false
 [*.md]
 max_line_length = 2147483647
 trim_trailing_whitespace = false
-
-[*.{csproj.DotSettings,sln.DotSettings}]
-generated_code = true
-ij_formatter_enabled = false
 
 [*.{csproj,html,props,resx,shproj,targets,xaml,xml}]
 ij_xml_space_inside_empty_tag = true
